@@ -1,0 +1,138 @@
+﻿.tHint {
+	padding: 3px 6px;
+	border: solid 1px #BABABA;
+	background-color: #FFFFFF;
+	font-family: Verdana;
+	font-size: 9pt;
+	font-weight: normal;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	margin: 0px;
+}
+
+input.tHint {
+	width: 230px;
+}
+
+select.tHint {
+	padding: 0 0 0 6px!important;
+	height: 22px;
+}
+
+input, textarea, select {
+	outline: none;
+}
+
+.validator {
+	color: red;
+	font-family: Verdana;
+	font-size: 8pt;
+	font-weight: bold;
+}
+
+.tbl td {
+	padding: 3px;
+}
+
+.tbl tr td:first-child {
+	text-align: left;
+}
+
+.tbl tr td:last-child {
+	width: 50px;
+	text-align: left;
+}
+
+.radioBtn {
+	font-family: Verdana, Tahoma, Arial, Geneva, sans-serif;
+	font-size: 9pt;
+	font-weight: normal;
+	line-height: 22px;
+}
+
+h2.loginTitle {
+	font-family: Verdana, Tahoma, Arial, Geneva, sans-serif;
+	font-size: 11pt;
+	font-weight: bold;
+}
+
+.btn {
+    background: url(btn.png) repeat-x 0 0;
+    color: #4E4E4E;
+    border: solid 1px #BABABA;
+    line-height: 26px;
+    height: 26px;
+    padding: 0 15px;
+    cursor: pointer;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -khtml-border-radius: 4px;
+    font-family: Verdana, Tahoma, Arial, Geneva, sans-serif;
+    font-size: 1rem;
+    font-weight: normal;
+    margin: 3px 0px 0px 0px;
+}
+
+	.btn:hover {
+		color: #000000;
+	}
+
+	.btn:active {
+		background-position: 0 -26px!important;
+	}
+
+.w100 {
+	width: 100px!important;
+}
+
+.w200 {
+	width: 200px!important;
+}
+
+.w214 {
+	width: 214px!important;
+}
+
+.h5 {
+	height: 5px;
+}
+
+.h30 {
+	height: 30px;
+}
+
+.example {
+	font-size: 7pt;
+	font-family: Verdana;
+	font-weight: normal;
+	color: #808080;
+	line-height: 15px;
+}
+
+.submitButtonPhone {
+	color: #020295 !important;
+	text-decoration: underline !important;
+}
+
+.tblAgreement {
+	width: 400px;
+}
+
+#login1_gvAgreements {
+	width: 400px;
+}
+
+.firstColum {
+	text-align: right !Important;
+}
+
+.submitButtonPhone:hover {
+	text-decoration: none !important;
+}
+
+.btnPhone {
+	margin-left: 27px;
+}

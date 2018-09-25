@@ -1,0 +1,324 @@
+/* CSS Document */
+html, body{
+	margin:0;
+	padding:0;
+	font-family: Trebuchet MS, Tahoma, Helvetica, sans-serif;
+	font-size:12px;
+	line-height:normal;
+	color:#616161;
+	width:100%;
+	background: url(../images/fon_top.jpg)  repeat-x top;
+}
+body{
+	height:100%;
+}
+
+
+img, form,table{
+	border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    padding: 0;
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+	margin:0;
+	padding:0;
+	color:#414141;
+	font-size:18px;
+	line-height:30px;
+	font-family: Trebuchet MS, Tahoma, Helvetica, sans-serif;
+}
+h2{
+	margin:0;
+	padding:0;
+}
+h3{
+	padding:0;
+	margin:0;
+}
+h4{
+	margin:0;
+	padding:0;
+}
+p{
+	font-family: Trebuchet MS, Tahoma, Helvetica, sans-serif;
+	font-size:12px;
+	line-height:18px;
+	color:#969696;
+	margin:0;
+	padding:0;
+}
+ul{
+	margin:0;
+	padding:0;
+}
+li{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+a{
+	outline:none;
+	text-decoration:none;
+	color:#000;
+}
+a:hover{
+	text-decoration:none;
+}
+.clear{
+	clear:both;
+	font-size:0px;
+}
+
+.wrap{
+	margin:0 auto;
+	width:954px;
+}
+/*header*/
+.header{
+	height:91px;
+	overflow:hidden;
+	background:url(../images/header.jpg) no-repeat;
+	padding:55px 32px 0 63px;
+	font-family: Trebuchet MS, Tahoma, Helvetica, sans-serif;
+	font-size:14px;
+	color:#414141;
+}
+.header p.slogan{
+	font-weight:bold;
+	font-family: Trebuchet MS, Tahoma, Helvetica, sans-serif;
+	font-size:14px;
+	color:#414141;
+	margin-left:150px;
+}
+.header span{
+	color:#e90000;
+	text-transform:uppercase;
+}
+.logo {
+	float:left;
+	width:120px;
+	background:url(../images/logo.gif) no-repeat;
+}
+.logo a{
+	display:block;
+	height:46px;	
+}
+.personal_data {
+margin-top: 0px;
+}
+.personal_data li{
+	display:inline;
+	color:#616161;
+	font-family: Trebuchet MS, Tahoma, Helvetica, sans-serif;
+	font-size:14px;
+	padding-right:10px;
+	line-height:24px;
+}
+.personal_data li b{
+	font-size:11px;
+	color:#414141;
+}
+.personal_data span{
+	text-transform:none;
+	
+}
+span.l_stat {
+ color:#000 !Important
+}
+/*header*/
+/*content*/
+.content{
+	border-left:#bebebe solid 4px;
+	border-right:#bebebe solid 4px;
+	border-top:#bebebe solid 1px;
+	background:#eeeeee url(../images/fon_top_content.jpg) repeat-x;
+}
+.box{
+	background:url(../images/fon_bottom_content.jpg) repeat-x bottom;
+	padding-left:30px;
+	padding-bottom:26px;
+}
+.block_top{
+	background:url(../images/block_top.gif) no-repeat;
+	height:64px;
+	overflow:hidden;
+	width:854px;
+	padding-left:33px;
+	margin-top:28px;
+}
+.block_top .sections_cabinet{
+	width:254px;
+	float:left;
+	padding-top:20px;
+}
+.block_top  .sections_cabinet_text{
+	margin-left:250px;
+	padding-top:26px;
+	
+}
+.block_center{
+	padding-left:33px;
+	border-left:#dbdbdb  solid 1px;
+	border-right:#dbdbdb  solid 1px;
+	background:#fff;
+	width:852px;
+	padding-bottom:30px;
+}
+.block_center .col_left{
+	float: left;
+	width: 207px;
+	margin-right: 6px;
+}
+.col_left li{
+	height:30px;
+	line-height:30px;
+	padding:3px 0;
+}
+.col_left a{
+	color:#616161;
+	font-family: Trebuchet MS, Tahoma, Helvetica, sans-serif;
+	font-size:14px;
+	width:176px;
+	padding-left:30px;
+	height:30px;
+	display:block;
+}
+.col_left a:hover{
+	color:#fff;
+	background:url(../images/red_menu1.jpg) no-repeat;
+}
+.col_left a.act_menu{
+	color:#616161;
+	background:url(../images/act_menu1.jpg) no-repeat;
+}
+.block_center .col_right{
+	float:left;
+	width:618px;
+}
+.block_red_top{
+	background:url(../images/block_red_top.gif) no-repeat;
+	height:13px;
+	-font-size:5px;
+}
+.block_red_center{
+	background:#fff;
+	border-left:#ee0101  solid 4px;
+	border-right:#ee0101  solid 4px;
+	width:599px;
+	padding:10px 5px;
+	min-height:270px;
+	-height:270px;
+}
+.block_red_bottom{
+	background:url(../images/block_red_bottom.gif) no-repeat;
+	height:13px;
+	-font-size:5px;
+}
+.block_bottom{
+	background:url(../images/block_bottom.gif) no-repeat;
+	height:18px;
+	width:887px;
+}
+/*content*/
+/*footer*/
+.footer{
+	background:url(../images/fon_footer.gif) no-repeat;
+	height:102px;
+	overflow:hidden;
+	padding:20px 60px 0 40px;
+	color:#414141;
+	font-family: Trebuchet MS, Tahoma, Helvetica, sans-serif;
+	font-size:14px;
+}
+.footer span{
+	color:#e90000;
+	font-family: Tahoma, Helvetica, sans-serif;
+	font-size:16px;
+}
+.footer .connection{
+	float:left;
+	width:26%;
+	padding-right:2%;
+	background:url(../images/icone_connection.gif) no-repeat;
+	min-height:45px;
+	-height:45px;
+	padding-left:50px;
+}
+.footer .support{
+	float:left;
+	width:26%;
+	padding-right:2%;
+	background:url(../images/icone_support.gif) no-repeat;
+	min-height:45px;
+	-height:45px;
+	padding-left:50px;
+}
+.footer .copy{
+	float:left;
+	width:20%;
+	padding-right:2%;
+	text-align:right;
+	font-family: Tahoma, Helvetica, sans-serif;
+	font-size:10px;
+	color:#787878;
+}
+.footer p{
+	font-size:10px;
+	color:#5d6166;
+}
+
+/*Connection*/
+.connection_UC{
+	float:left;
+	width:36%;
+	padding-right:2%;
+	background:url(../images/icone_connection.gif) no-repeat;
+	min-height:45px;
+	-height:45px;
+	padding-left:50px;
+}
+.connection_UC p{
+	font-size:10px;
+	color:#5d6166;
+}
+/*Connection*/
+
+/*Support*/
+.support_UC{
+	float:left;
+	width:26%;
+	padding-right:2%;
+	background:url(../images/icone_support.gif) no-repeat;
+	min-height:45px;
+	-height:45px;
+	padding-left:50px;
+}
+.support_UC p{
+	font-size:10px;
+	color:#5d6166;
+}
+/*Support*/
+.mymenu 
+{
+    height:30px;
+	line-height:26px;
+	padding:3px 0;
+}
+/*footer*/
+
+.btDrWebPay {
+	background-image: url(//static.liqpay.com/buttons/p11ru.radius.png);
+	border: none;
+	width: 207px;
+	height: 48px;
+}
+.btPay24Private {
+	background-image: url(https://client-bank.privatbank.ua/p24/img/buttons/api_logo_1.gif);
+	border: none;
+	width: 95px;
+	height: 43px;
+}
